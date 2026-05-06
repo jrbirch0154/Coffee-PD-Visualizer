@@ -2,6 +2,9 @@
 
 A Streamlit app that simulates a PI-controlled mug warmer using real heat transfer physics. Adjust controller gains, mug properties, and heater power to see how the system responds. Compare multiple runs side by side!
 
+## Link
+[https://coffee-controller.streamlit.app/](https://coffee-controller.streamlit.app/)
+
 ## What it does
 
 The app models a coffee mug losing heat to its environment, with a PI controller driving a heater to maintain a target temperature. The underlying ODE is:
@@ -37,9 +40,6 @@ The simulation time span is automatically calculated from the system's thermal t
 - **Lower Q_max** to see the controller saturate and lose the battle against heat loss
 - **Increase M** with a fixed Q_max to see a heavier mug overwhelm the heater's power budget
 - **Run multiple configurations** and compare them - all previous runs stay on screen until you clear them
-
-## Link
-[https://coffee-controller.streamlit.app/](https://coffee-controller.streamlit.app/)
 
 ## Stack
 
