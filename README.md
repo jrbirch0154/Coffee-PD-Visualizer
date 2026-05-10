@@ -35,7 +35,7 @@ The simulation time span is automatically calculated from the system's thermal t
 
 ## Things to try
 
-- **Set Kp and Ki = 0** Watch what happens with no PD controller. The temperature slowly falls to room temp
+- **Set Kp and Ki = 0** Watch what happens with no PI controller. The temperature slowly falls to room temp
 - **Crank Ki too high** to watch integral windup cause overshoot and oscillation
 - **Lower Q_max** to see the controller saturate and lose the battle against heat loss
 - **Increase M** with a fixed Q_max to see a heavier mug overwhelm the heater's power budget
